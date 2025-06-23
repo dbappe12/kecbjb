@@ -176,7 +176,7 @@ $currentMonth = Carbon::now();
                                             </ul>
                                         </li> -->
                                         <li><a href="{{ url('page/sejarah') }}" class="{{ request()->is('page/sejarah') ? 'dropdown current' : '' }}">Sejarah</a></li>
-                                        <li><a href="{{ url('page/profil-camat') }}" class="{{ request()->is('page/profil-camat') ? 'dropdown current' : '' }}">Profil Camat</a></li>
+                                        <li><a href="{{ url('page/profil') }}" class="{{ request()->is('page/profil') ? 'dropdown current' : '' }}">Profil</a></li>
                                         <li><a href="{{ url('page/visi-dan-misi') }}" class="{{ request()->is('page/visi-dan-misi') ? 'dropdown current' : '' }}">Visi dan Misi</a></li>
                                         <li><a href="{{ url('page/struktur-organisasi') }}" class="{{ request()->is('page/struktur-organisasi') ? 'dropdown current' : '' }}">Struktur Organisasi</a></li>
                                         <li><a href="{{ url('page/maklumat-pelayanan') }}" class="{{ request()->is('page/maklumat-pelayanan') ? 'dropdown current' : '' }}">Maklumat Pelayanan</a></li>

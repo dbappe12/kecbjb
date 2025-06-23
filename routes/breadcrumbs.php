@@ -45,6 +45,7 @@ Breadcrumbs::for('page.tampil', function (BreadcrumbTrail $trail, $slug) {
         'lakip' => 'LAKIP',
         'akuntabilitas-batanghari' => 'Transparansi Anggaran',
         'struktur-organisasi' => 'Struktur Organisasi',
+        'profil' => 'Profil',
         'profil-camat' => 'Profil Camat',
         'standar-pelayanan-publik' => 'Standar Pelayanan Publik',
         'maklumat-pelayanan' => 'Maklumat Pelayanan',

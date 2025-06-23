@@ -90,7 +90,7 @@ class PageController extends Controller
     private function getContentBySlug($slug)
     {
         $contents = [
-            'profil-batanghari' => 'Content of Profil Batanghari page',
+            'profil' => 'Content of Profil page',
             'sejarah' => 'Content of Sejarah page',
             'arti-lambang' => 'Content of Arti Lambang page',
             'kondisi-demografi' => 'Content of Kondisi Demografi page',
